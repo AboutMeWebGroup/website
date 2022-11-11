@@ -20,7 +20,7 @@ export default function Home() {
             <p>Freshman, Computer Science major</p>
           </a>
           <a
-            href='AinsleyF'
+            href='/AinsleyF'
             className='card'>
             <h3>Ainsley Fletcher &rarr;</h3>
             <p></p>
