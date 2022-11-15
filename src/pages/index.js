@@ -26,12 +26,12 @@ export default function Home() {
             <p></p>
           </a>
           <a
-            href='/wooseockSong'
+            href='/WooseockS'
             className='card'>
             <h3>Wooseock Song &rarr;</h3>
             <p></p>
           </a>
-          <a href='/alexanderNguyen' className='card'>
+          <a href='/AlexanderN' className='card'>
             <h3>Alexander Nguyen &rarr;</h3>
             <p></p>
           </a>{' '}
