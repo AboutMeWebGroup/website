@@ -1,116 +1,125 @@
 export default function examplePage() {
-    return (
-      <div className='container'>
-        <title>Website</title>
-        <link rel='icon' href='/favicon.ico' />
+  return (
+    <div className='container'>
+      <title>Website</title>
+      <link rel='icon' href='/favicon.ico' />
 
-        <main>
-          <div className='underline'>
-            <h1 className='title'>Hey, I'm Alexander Nguyen</h1>
-          </div>
+      <main>
+        <div className='underline'>
+          <h1 className='title'>Hey, I'm Alexander Nguyen</h1>
+        </div>
 
-          <p className='description'>
-            I'm currently commuting at CU Boulder as a 1st year freshman. I currently 
-            enjoy playing video games such as Valorant and Overwatch and I'm
-            deeply interested in Virtual Reality and tend to spend a lot on Reddit
-            scrolling braindead while listening to synthwave music.
-          </p>
+        <img
+          src="https://d36urhup7zbd7q.cloudfront.net/a/161264d8-72fa-45d6-bbb0-093490a72718.jpeg"
+          alt='Alexander Nguyen'
+        />
 
-          <a className='button' href='/'>
-            <p> Back to Home Page</p>
-          </a>
-        </main>
+        <p className='description'>
+          I'm currently commuting at CU Boulder as a 1st year freshman.  
+        </p>
 
-        <style jsx>{`
-          .container {
-            min-height: 100vh;
-            padding: 0 0.5rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            max-width: 60rem;
-            margin: auto;
-          }
+        <p className='description'> 
+         I currently 
+          enjoy playing video games such as Valorant and Overwatch and I'm
+          deeply interested in Virtual Reality and tend to spend a lot on Reddit
+          scrolling braindead while listening to synthwave music.
+        </p>
 
-          main {
-            padding: 5rem 0;
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-          }
+        <a className='button' href='/'>
+          <p> Back to Home Page</p>
+        </a>
+      </main>
 
-          .title {
-            margin: 0;
-            line-height: 1.15;
-            font-size: 4rem;
-          }
+      <style jsx>{`
+        .container {
+          min-height: 100vh;
+          padding: 0 0.5rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          max-width: 60rem;
+          margin: auto;
+        }
 
-          .underline {
-            /* border-bottom: solid black; */
-            margin-bottom: 1.5rem;
-          }
+        main {
+          padding: 5rem 0;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
 
-          .description {
-            line-height: 1.5;
-            font-size: 1.5rem;
-          }
+        .title {
+          margin: 0;
+          line-height: 1.15;
+          font-size: 4rem;
+        }
 
-          .pic {
-            height: 450px;
-            width: 450px;
-          }
+        .underline {
+          /* border-bottom: solid black; */
+          margin-bottom: 1.5rem;
+        }
 
-          .button {
-            /* margin: .5rem; */
-            flex-basis: 45%;
-            padding: 0.5rem;
-            text-align: left;
-            color: inherit;
-            text-decoration: none;
-            border: 1px solid #eaeaea;
-            border-radius: 10px;
-            transition: color 0.15s ease, border-color 0.15s ease;
-          }
+        .description {
+          line-height: 1.5;
+          font-size: 1.5rem;
+        }
 
-          .button:hover,
-          .button:focus,
-          .button:active {
-            color: #0070f3;
-            border-color: #0070f3;
-          }
+        .pic {
+          height: 450px;
+          width: 450px;
+        }
 
-          .button p {
-            font-size: 1rem;
-            font-weight: 600;
-          }
+        .button {
+          /* margin: .5rem; */
+          flex-basis: 45%;
+          padding: 0.5rem;
+          text-align: left;
+          color: inherit;
+          text-decoration: none;
+          border: 1px solid #eaeaea;
+          border-radius: 10px;
+          transition: color 0.15s ease, border-color 0.15s ease;
+        }
 
-          code {
-            background: #fafafa;
-            border-radius: 5px;
-            padding: 0.75rem;
-            font-size: 1.1rem;
-            font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-              DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-          }
-        `}</style>
+        .button:hover,
+        .button:focus,
+        .button:active {
+          color: #0070f3;
+          border-color: #0070f3;
+        }
 
-        <style jsx global>{`
-          html,
-          body {
-            padding: 0;
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-              Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-              sans-serif;
-          }
+        .button p {
+          font-size: 1rem;
+          font-weight: 600;
+        }
 
-          * {
-            box-sizing: border-box;
-          }
-        `}</style>
-      </div>
-    );
+        code {
+          background: #fafafa;
+          border-radius: 5px;
+          padding: 0.75rem;
+          font-size: 1.1rem;
+          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+        }
+      `}</style>
+
+      <style jsx global>{`
+        html,
+        body {
+          padding: 0;
+          margin: 0;
+          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+            sans-serif;
+        }
+
+        * {
+          box-sizing: border-box;
+        }
+      `}</style>
+    </div>
+  );
 }
